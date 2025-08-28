@@ -14,14 +14,17 @@ const FrontCard = ({ onClick }) => {
         className="w-28 h-28 mx-auto rounded-full shadow-md mb-4"
       />
       <h1 className="text-2xl font-bold text-gray-800">Francis Iboloke</h1>
-      <p className="text-gray-500 mb-4">Pharmaceutical Sales Representative</p>
+      <p className="text-gray-500 mb-4">Front-End Engineer</p>
       <p className="text-gray-600 text-sm mb-6">
-        Persuasive medical sales professional skilled in product promotion
-        and client relationship building.
+        Passionate about building responsive, user-friendly web interfaces with modern 
+        technologies. Skilled in React, TailwindCSS, and creating seamless digital experiences.
       </p>
       <div className="flex justify-center gap-6">
         <a
-          href="mailto:ibolokefrancisjames@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=ibolokefrancisjames@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+        //   href="mailto:ibolokefrancisjames@gmail.com"
           className="text-gray-600 hover:text-blue-600 transition-colors"
           onClick={(e) => e.stopPropagation()}
         >
@@ -35,7 +38,7 @@ const FrontCard = ({ onClick }) => {
           <Phone size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/your-link"
+          href="https://www.linkedin.com/in/francis-iboloke-65b797312"
           target="_blank"
           rel="noreferrer"
           className="text-gray-600 hover:text-blue-700 transition-colors"
@@ -44,7 +47,7 @@ const FrontCard = ({ onClick }) => {
           <Linkedin size={20} />
         </a>
         <a
-          href="https://github.com/your-github"
+          href="https://github.com/Francis6866"
           target="_blank"
           rel="noreferrer"
           className="text-gray-600 hover:text-black transition-colors"
@@ -53,6 +56,8 @@ const FrontCard = ({ onClick }) => {
           <Github size={20} />
         </a>
       </div>
+
+        <p className="mt-4 text-blue-300 text-xs">Tap the card to flip back</p>
     </div>
   );
 };
