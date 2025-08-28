@@ -4,8 +4,8 @@ import { Mail, Phone, Linkedin, Github } from "lucide-react";
 const FrontCard = ({ onClick }) => {
   return (
     <div
-      className="absolute w-full h-full backface-hidden bg-white rounded-2xl shadow-xl p-8 text-center flex flex-col justify-center"
-      onClick={onClick}
+        className="absolute w-full h-full backface-hidden bg-gradient-to-br from-indigo-100 via-indigo-200 to-white rounded-2xl shadow-xl p-8 text-center flex flex-col justify-center"
+        onClick={onClick}
     >
       <img
         src="https://via.placeholder.com/120"
