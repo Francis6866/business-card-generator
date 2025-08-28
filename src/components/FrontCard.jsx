@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, Phone, Linkedin, Github } from "lucide-react";
+import imgSrc from "../images/image-mi.jpeg"
 
 const FrontCard = ({ onClick }) => {
   return (
@@ -8,7 +9,7 @@ const FrontCard = ({ onClick }) => {
         onClick={onClick}
     >
       <img
-        src="https://via.placeholder.com/120"
+        src={imgSrc}
         alt="Profile"
         className="w-28 h-28 mx-auto rounded-full shadow-md mb-4"
       />
