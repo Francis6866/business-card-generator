@@ -1,12 +1,14 @@
-# React + Vite
+#Digital Business Card (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, interactive digital business card built with React, Vite, and TailwindCSS.
+The card features a flip animation with a QR code on the back for quick access to contact info or portfolio links.
 
-Currently, two official plugins are available:
+#Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clean front with name, title, and clickable icons (Email, Phone, LinkedIn, GitHub)
 
-## Expanding the ESLint configuration
+Back side with QR code and brief call-to-action
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Smooth 3D flip animation on click
+
+Fully responsive and easy to customize
